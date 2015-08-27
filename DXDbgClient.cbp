@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DXDbgClient" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DXDbgClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="Comctl32" />
+					<Add library="gdi32" />
+					<Add library="d3d9" />
+					<Add library="d3dx9" />
+					<Add library="psapi" />
+					<Add library="UxTheme" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DXDbgClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-m32" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m32" />
+					<Add option="-static" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add library="Comctl32" />
+					<Add library="gdi32" />
+					<Add library="d3d9" />
+					<Add library="d3dx9" />
+					<Add library="psapi" />
+					<Add library="UxTheme" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Controls.cxx" />
+		<Unit filename="Controls.hxx" />
+		<Unit filename="DebugWindow.cxx" />
+		<Unit filename="DebugWindow.hxx" />
+		<Unit filename="Debugger.cxx" />
+		<Unit filename="Debugger.hxx" />
+		<Unit filename="EventListener.hxx" />
+		<Unit filename="EventManager.hxx" />
+		<Unit filename="Form.cxx" />
+		<Unit filename="Form.hxx" />
+		<Unit filename="Graphics.cxx" />
+		<Unit filename="Graphics.hxx" />
+		<Unit filename="Libraries/LodePNG.cxx" />
+		<Unit filename="Libraries/LodePNG.hxx" />
+		<Unit filename="Process.cxx" />
+		<Unit filename="Process.hxx" />
+		<Unit filename="Utilities.cxx" />
+		<Unit filename="Utilities.hxx" />
+		<Unit filename="main.cxx" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

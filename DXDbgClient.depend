@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1440519235 source:c:\users\kira\desktop\dxdbgclient\controls.cxx
+	"Controls.hxx"
+
+1440282434 c:\users\kira\desktop\dxdbgclient\controls.hxx
+	<windows.h>
+	<commctrl.h>
+	<cstdint>
+	<algorithm>
+	<vector>
+	<cwchar>
+	<richedit.h>
+	<cstring>
+	"EventManager.hxx"
+	"Utilities.hxx"
+
+1439767283 c:\users\kira\desktop\dxdbgclient\eventmanager.hxx
+	<functional>
+	<vector>
+	<cstdint>
+	<tuple>
+	<iostream>
+	<algorithm>
+
+1440261999 c:\users\kira\desktop\dxdbgclient\utilities.hxx
+	<windows.h>
+	<winternl.h>
+	<cstdint>
+	<commctrl.h>
+	<string>
+
+1440211882 source:c:\users\kira\desktop\dxdbgclient\form.cxx
+	"Form.hxx"
+
+1440214857 c:\users\kira\desktop\dxdbgclient\form.hxx
+	<windows.h>
+	<functional>
+	<vector>
+	"EventManager.hxx"
+	"Utilities.hxx"
+
+1440266801 source:c:\users\kira\desktop\dxdbgclient\main.cxx
+	"DebugWindow.hxx"
+
+1440440475 source:c:\users\kira\desktop\dxdbgclient\utilities.cxx
+	"Utilities.hxx"
+
+1440399430 source:c:\users\kira\desktop\dxdbgclient\process.cxx
+	"Process.hxx"
+
+1440302686 c:\users\kira\desktop\dxdbgclient\process.hxx
+	<windows.h>
+	<string>
+	<thread>
+	<iostream>
+	<atomic>
+
+1440294400 source:c:\users\kira\desktop\dxdbgclient\graphics.cxx
+	"Graphics.hxx"
+
+1440294680 c:\users\kira\desktop\dxdbgclient\graphics.hxx
+	<windows.h>
+	<d3d9.h>
+	<cstdint>
+	<string>
+	<vector>
+	<utility>
+	<cmath>
+	<fstream>
+	"Libraries/LodePNG.hxx"
+	<d3dx9.h>
+
+1440519431 source:c:\users\kira\desktop\dxdbgclient\debugwindow.cxx
+	"DebugWindow.hxx"
+
+1440392052 c:\users\kira\desktop\dxdbgclient\debugwindow.hxx
+	<windows.h>
+	"Form.hxx"
+	"Controls.hxx"
+	"Utilities.hxx"
+	"Graphics.hxx"
+	<iostream>
+	<sstream>
+	<thread>
+	<unordered_map>
+	<tuple>
+	<d3d9.h>
+	<d3dx9.h>
+	"Process.hxx"
+	"Debugger.hxx"
+	<Uxtheme.h>
+
+1423723069 c:\users\kira\desktop\dxdbgclient\libraries\lodepng.hxx
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1423723048 source:c:\users\kira\desktop\dxdbgclient\libraries\lodepng.cxx
+	"LodePNG.hxx"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1440518145 source:c:\users\kira\desktop\dxdbgclient\debugger.cxx
+	"Debugger.hxx"
+
+1440400505 c:\users\kira\desktop\dxdbgclient\debugger.hxx
+	<memory>
+	<ostream>
+	<string>
+	<vector>
+	<unordered_map>
+	<functional>
+	<map>
+	"Process.hxx"
+	"Utilities.hxx"
+
+1440356524 source:c:\users\kira\desktop\dxdbgclient\advanceddebugger.cxx
+	"AdvancedDebugger.hxx"
+
+1440372980 c:\users\kira\desktop\dxdbgclient\advanceddebugger.hxx
+	"Debugger.hxx"
+
